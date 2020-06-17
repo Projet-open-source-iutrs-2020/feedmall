@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>feedmall</id>
+    <name>Feed M All</name>
+    <summary>An app to shares feeds to other nextcloud users.</summary>
+    <description><![CDATA[In development.]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="mankoty567@outlook.fr" >mankoty</author>
+    <namespace>FeedMAll</namespace>
+    <category>social</category>
+    <bugs>https://github.com/Projet-open-source-iutrs-2020/news/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Feed M All</name>
+            <route>feedmall.page.index</route>
+        </navigation>
+    </navigations>
+</info>

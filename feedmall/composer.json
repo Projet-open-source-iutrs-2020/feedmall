@@ -1,0 +1,15 @@
+{
+    "name": "Feed M All",
+    "description": "An app to shares feeds to other nextcloud users.",
+    "type": "project",
+    "license": "AGPL",
+    "authors": [
+        {
+            "name": "mankoty"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    }
+}
